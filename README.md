@@ -20,11 +20,47 @@ To write a program to perform linear search and binary search using python progr
 i)	#Use a linear search method to match the item in a list.
 ```
 
+def linearSearch(array,n,k):
+    for i in range(n):
+        if array[i]==k:
+            return i
+    return -1
+array = eval(input())
+array.sort()
+k = eval(input()) 
+n=len(array)
+print(array)
+result = linearSearch(array,n,k)
+if result==-1:
+    print("Element not found")
+else:
+    print("Element found at index: ",result) 
+
 
 
 ```
 ii)	# Find the element in a list using Binary Search(Iterative Method).
 ```
+
+def binarySearchIter(array, k, low, high):
+    while low<=high:
+        mid=low+(high-low)//2
+        if array[mid]==k:
+            return mid
+        elif array[mid]<k:
+            low=mid+1
+        else:
+            high=mid-1
+    return -1
+array = eval(input())
+array.sort()
+k = eval(input()) 
+print(array)
+res=binarySearchIter(array,k,0,len(array)-1)
+if res==-1:
+    print("Element not found")
+else:
+    print("Element found at index: ",res)
 
 
 
@@ -34,12 +70,36 @@ ii)	# Find the element in a list using Binary Search(Iterative Method).
 iii)	# Find the element in a list using Binary Search (recursive Method).
 ```
 
+def binarySearchIter(array, k, low, high):
+    while low<=high:
+        mid=low+(high-low)//2
+        if array[mid]==k:
+            return mid
+        elif array[mid]<k:
+            low=mid+1
+        else:
+            high=mid-1
+    return -1
+array = eval(input())
+array.sort()
+k = eval(input()) 
+print(array)
+res=binarySearchIter(array,k,0,len(array)-1)
+if res==-1:
+    print("Element not found")
+else:
+    print("Element found at index: ",res)
+
 
 
 
 
 ```
 ## Sample Input and Output
+![Screenshot 2024-03-30 153746](https://github.com/NITHIYANANDAN278/Search-Algorithms/assets/121784636/80ffbe47-c5a3-4df0-b977-26813402712c)
+![Screenshot 2024-03-30 153952](https://github.com/NITHIYANANDAN278/Search-Algorithms/assets/121784636/ead42d21-182a-4295-95e6-a39bf91b94de)
+![Screenshot 2024-03-30 154154](https://github.com/NITHIYANANDAN278/Search-Algorithms/assets/121784636/65d7dce2-9a1d-4198-8f49-4f1d69b37548)
+
 
 
 
