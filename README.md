@@ -17,6 +17,10 @@ To write a program to perform linear search and binary search using python progr
 5.	Else, compare x with the middle element of the elements on the left side of mid. This is done by setting high to high = mid - 1.
 6.	Repeat steps 2 to 5 until low meets high
 ## Program:
+```
+Developed by: NITHIYANANDAN N
+Register number:212222230099
+```
 i)	#Use a linear search method to match the item in a list.
 ```
 
@@ -96,10 +100,9 @@ else:
 
 ```
 ## Sample Input and Output
-![Screenshot 2024-03-30 153746](https://github.com/NITHIYANANDAN278/Search-Algorithms/assets/121784636/80ffbe47-c5a3-4df0-b977-26813402712c)
-![Screenshot 2024-03-30 153952](https://github.com/NITHIYANANDAN278/Search-Algorithms/assets/121784636/ead42d21-182a-4295-95e6-a39bf91b94de)
-![Screenshot 2024-03-30 154154](https://github.com/NITHIYANANDAN278/Search-Algorithms/assets/121784636/65d7dce2-9a1d-4198-8f49-4f1d69b37548)
-
+![image](https://github.com/NITHIYANANDAN278/Search-Algorithms/assets/121784636/fed8474e-72a6-4ffb-b0ad-7cda30e68bde)
+![image](https://github.com/NITHIYANANDAN278/Search-Algorithms/assets/121784636/551f514a-4c88-4b0a-b33d-6168c5ce0552)
+![image](https://github.com/NITHIYANANDAN278/Search-Algorithms/assets/121784636/d5f0896c-836e-4e93-b259-f23b65b4d3c2)
 
 
 
